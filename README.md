@@ -10,7 +10,7 @@ Almacén de avances digitales con código de las "tachas" de Felipe Pereira para
 
 ## 🚀 Tecnologías utilizadas
 
-- **Python 3.x**  
+- **Python 3.12**  
 - **OpenCV**  
 - **Folium**  
 - **Pandas**  
