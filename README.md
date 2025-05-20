@@ -68,7 +68,7 @@ Los resultados se guardarán en las carpetas correspondientes.
 ## 📬 Contacto
 
 Felipe Pereira  
-[LinkedIn](https://www.linkedin.com/felipe-pereira-alarcón) | [Email](mailto:f.pereiraalarcn@gmail.com)
+[LinkedIn](https://www.linkedin.com/in/felipe-pereira-alarcón) | [Email](mailto:f.pereiraalarcn@gmail.com)
 
 ---
 
