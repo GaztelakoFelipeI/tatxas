@@ -172,7 +172,7 @@ class ModeloPatronTachas(torch.nn.Module):
         salida = self.lineal(lstm_out[:, -1, :]) # Usa la salida del último paso de tiempo
         return salida
 
-RUTA_MODELO_NN = 'modelo_patron_tachas.pt'
+RUTA_MODELO_NN = 'NNPT/modelo_patron_tachas.pt'
 # Valores por defecto, serán sobrescritos si se cargan desde el checkpoint
 LONGITUD_SECUENCIA_ENTRADA_NN = 5
 MEDIA_DIST_ENTRENAMIENTO = 50.0
@@ -183,6 +183,7 @@ STD_DIST_ENTRENAMIENTO = 10.0
 modelo_patron_tachas = ModeloPatronTachas(LONGITUD_SECUENCIA_ENTRADA_NN).to(device)
 NN_MODELO_CARGADO = False
 
+# Carga del modelo y parámetros guardados
 try:
     checkpoint = torch.load(RUTA_MODELO_NN, map_location=device)
     
