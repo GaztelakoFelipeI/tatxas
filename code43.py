@@ -1,6 +1,8 @@
 # Mejora de odometría visual con acumulación de rotación y translación coherente
 # Se ajusta el código original con una estimación más estable
 # IMPORTANTE: SE AÑADE ANÁLISIS DE PATRÓN DE COLOCACIÓN DE TACHAS + INTEGRACIÓN CONCEPTUAL DE RED NEURONAL PARA VALIDACIÓN DE PATRONES
+# Código realizado por Felipe Pereira Alarcón, Ingeniero Civil Informático, Universidad Andrés Bello, Chile - Practicante SSGL 
+# Fecha: 2025-22-05
 
 import cv2
 import numpy as np
