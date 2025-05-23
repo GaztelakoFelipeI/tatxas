@@ -28,13 +28,16 @@ Almacén de avances digitales con código de las "tachas" de Felipe Pereira para
 ```
 .
 ├── *.py                # Scripts principales de análisis y visualización
-├── mapas_dinamicos/    # Mapas HTML generados dinámicamente
 ├── captaPT/            # Modelos de detección (PyTorch)
-├── metadata/           # Metadatos y archivos auxiliares
 ├── tachasPT/           # Resultados de detección de tachas
-├── videos/             # Videos fuente y procesados
+├── PkPT/               # Modelos de detección (PyTorch)
+├── NNPT                # Resultados de detección de patrones de tachas
+├── mapas_dinamicos/    # Mapas HTML generados dinámicamente
+├── metadata/           # Metadatos y archivos auxiliares
 ├── screenshots/        # Capturas de pantalla de resultados
-└── README.md           # Este archivo
+├── videos/             # Videos fuente y procesados
+├── README.md           # Este archivo
+└── fecha_actual - Análisis FP SSGL.xlsx # Almacena toda la info. más importante de los análisis de detección y el entrenamiento de la NN
 ```
 
 ---
