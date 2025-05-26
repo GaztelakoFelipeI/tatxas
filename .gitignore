@@ -6,3 +6,5 @@ __pycache__
 /videos/*
 !/videos/.gitkeep
 resultado_Transformado.MP4
+mapas_dinamicos/
+*.xlsx
